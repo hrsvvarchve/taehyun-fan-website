@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taehyun's Blue Universe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#home" class="logo">𐙚 TAEHYUN'S UNIVERSE</a>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#message">Message</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="eyebrow">A LITTLE UNIVERSE FOR SOMEONE SPECIAL</p>
+
+            <h1>Dear <span>Taehyun</span></h1>
+
+            <p class="hero-description">
+                In a universe full of stars, somehow,
+                you are the one I always notice.
+            </p>
+
+            <a href="#about" class="main-button">
+                Discover More ♡
+            </a>
+        </div>
+
+        <div class="hero-decoration">
+            <span>✦</span>
+            <span>♡</span>
+            <span>✧</span>
+            <span>⋆</span>
+        </div>
+
+        <p class="hero-bottom">KANG TAEHYUN · TOMORROW X TOGETHER</p>
+    </section>
+
+    <section class="about section" id="about">
+        <p class="section-label">A PERSON WORTH ADMIRING</p>
+
+        <h2>About Kang Taehyun</h2>
+
+        <p class="about-text">
+            Kang Taehyun is a member of TOMORROW X TOGETHER.
+            Known for his beautiful vocals, dedication, and
+            charming personality, he continues to shine on stage
+            and inspire MOAs around the world.
+        </p>
+
+        <div class="facts">
+            <div class="fact-card">
+                <span>01</span>
+                <h3>KANG TAEHYUN</h3>
+                <p>His name</p>
+            </div>
+
+            <div class="fact-card">
+                <span>02</span>
+                <h3>FEBRUARY 5</h3>
+                <p>Birthday</p>
+            </div>
+
+            <div class="fact-card">
+                <span>03</span>
+                <h3>TOMORROW X TOGETHER</h3>
+                <p>His group</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+        <p class="section-label">LITTLE MOMENTS, BEAUTIFUL MEMORIES</p>
+
+        <h2>Our Favorite Taehyun</h2>
+
+        <p class="gallery-description">
+            Three little spaces filled with your beautiful moments.
+        </p>
+
+        <div class="gallery-container">
+
+            <div class="gallery-card">
+                <img src="images/taehyun-1.jpg" alt="Taehyun photo one">
+                <div class="card-caption">
+                    <h3>Blue Daydream</h3>
+                    <p>A face I could never get tired of seeing.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="images/taehyun-2.jpg" alt="Taehyun photo two">
+                <div class="card-caption">
+                    <h3>Little Sunshine</h3>
+                    <p>Your smile makes an ordinary day special.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="images/taehyun-3.jpg" alt="Taehyun photo three">
+                <div class="card-caption">
+                    <h3>My Favorite Star</h3>
+                    <p>Always shining in your own beautiful way.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <div class="quote-symbol">“</div>
+
+        <h2>
+            You make the world feel
+            a little more beautiful.
+        </h2>
+
+        <p>— A little note for Taehyun</p>
+    </section>
+
+    <section class="message section" id="message">
+        <p class="section-label">A LETTER FROM A MOA</p>
+
+        <h2>Dear, Taehyun ♡</h2>
+
+        <p class="message-text">
+            Thank you for sharing your music, your passion,
+            and your beautiful moments with us.
+            I hope you always find reasons to smile,
+            stay healthy, and keep doing what you love.
+        </p>
+
+        <button onclick="showMessage()" class="main-button">
+            Open a Little Note ♡
+        </button>
+
+        <p id="secret-message"></p>
+    </section>
+
+    <footer>
+        <h3>𐙚 Taehyun's Blue Universe</h3>
+        <p>Made with love by a MOA.</p>
+        <p class="copyright">
+            A personal fan-made website. Not affiliated with BIGHIT MUSIC.
+        </p>
+    </footer>
+
+    <div class="music-player">
+        <div class="music-icon">♫</div>
+
+        <div class="music-info">
+            <strong>Little Blue Melody</strong>
+            <small>A song for Taehyun</small>
+        </div>
+
+        <button onclick="toggleMusic()" id="music-button">
+            ▶
+        </button>
+
+        <audio id="background-music" loop>
+            <source src="audio/music.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
